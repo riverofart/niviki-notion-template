@@ -27,7 +27,7 @@ export default siteConfig({
   facebook: 'https://www.facebook.com/profile.php?id=100090728059751',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  youtube: 'https://www.youtube.com/channel/UCnXF6_7onoKdYHabp7zDFog', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: 'https://www.youtube.com/@RiverOfArt/featured', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
 
   // default notion icon and cover images for site-wide consistency (optional)
