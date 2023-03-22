@@ -27,7 +27,7 @@ export default siteConfig({
   facebook: 'https://www.facebook.com/profile.php?id=100090728059751',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  youtube: 'https://www.youtube.com/@RiverOfArt/featured', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: 'https://www.youtube.com/channel/UCnXF6_7onoKdYHabp7zDFog', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -44,6 +44,20 @@ export default siteConfig({
   // environment variables. see the readme for more info
   isRedisEnabled: false,
 
+  // map of notion page IDs to URL paths (optional)
+  // any pages defined here will override their default URL paths
+  // example:
+  //
+  pageUrlOverrides: {
+    // '/hoa-don-dien-tu-voi-blockchain-p1/': '/9dd30a7b68af4b40a8ad3d6d9cb845f0',
+    // '/giai-phap-hoa-don-dien-tu-voi-blockchain-phan-2-the-mvp': '/9dd30a7b68af4b40a8ad3d6d9cb845f0',
+    // '/phong-van-business-analyst-ba-ky-su-phan-1': '/60ebc3f1d53646119f703fe5d13df633'
+  },
+  // pageUrlOverrides: null,
+
+  // whether to use the default notion navigation style or a custom one with links to
+  // important pages
+  // navigationStyle: 'default',
   navigationStyle: 'custom',
   navigationLinks: [
     {
